@@ -1,3 +1,22 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+/* eslint-disable no-redeclare */
+
+/**
+ * @fileoverview Shortens URLs
+ *
+ * @author Your Name
+ *
+ * @requires NPM:express
+ */
+
+/* eslint-enable no-unused-vars */
+/* eslint-enable no-undef */
+/* eslint-enable no-redeclare */
+
+// Add the following line at the end of the comment block:
+// @ts-ignore
+
 // Add an event listener to the form to listen for submit events
 document.querySelector('form').addEventListener('submit', async (event) => {
     event.preventDefault(); // Prevent the form from submitting normally
